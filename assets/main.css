@@ -1,0 +1,133 @@
+#header {
+    background-color: rgb(19, 5, 70);
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+}
+
+.links {
+    color: white;
+}
+
+.links li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.links li a {
+    color: white;
+}
+
+
+.col {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 150px;
+    padding: 50px;
+    width: 33%;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(156, 10, 10);
+}
+
+
+.img {
+    width: 600px;
+    margin: 20px 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+#footer {
+    background-color: rgb(19, 5, 70);
+}
+
+.btn {
+    color: white;
+}
+
+.galleryImg {
+    display: inline;
+
+}
+
+.galleryImg img {
+    width: 32.4%;
+    height: 480px;
+    margin: 5px;
+    box-shadow: 4px 4px 4px black;
+}
+
+@media screen and (max-width: 776px) {
+    .galleryImg img{
+      width: 100%
+    }
+  }
+
+
+.title {
+    font-size: xx-large;
+}
+
+.works {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.works img {
+    width: 256px;
+    height: 256px;
+    margin-right: 15px;
+    float: left;
+}
+
+.works h3,
+.works p {
+    display: block;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 776px) {
+    .works img, .works h3, .works p {
+      width: 100%
+    }
+  }
+
+.formControl #name, #email, #massage  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .formControl {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .about ol {
+        list-style: upper-roman;
+  }
+
+  .about ul {
+      list-style: square;
+  }
