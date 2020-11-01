@@ -59,7 +59,7 @@
     box-shadow: 4px 4px 4px black;
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 600px) {
     .galleryImg img{
       width: 100%
     }
@@ -88,7 +88,7 @@
     margin-left: 15px;
 }
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 600px) {
     .works img, .works h3, .works p {
       width: 100%
     }
